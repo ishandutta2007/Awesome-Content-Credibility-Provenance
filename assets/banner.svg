@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#050811" />
+    </linearGradient>
+
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(30, 41, 59, 0.7)" />
+      <stop offset="100%" stop-color="rgba(15, 23, 42, 0.8)" />
+    </linearGradient>
+
+    <!-- Glowing Filters -->
+    <filter id="glowCyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="glowPurple" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="25" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255, 255, 255, 0.04)" stroke-width="1" />
+    </pattern>
+
+    <style>
+      .orb-1 {
+        animation: floatOrb1 12s ease-in-out infinite alternate;
+      }
+      .orb-2 {
+        animation: floatOrb2 10s ease-in-out infinite alternate;
+      }
+      .pulse-ring {
+        animation: pulseWave 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        transform-origin: 1020px 200px;
+      }
+      .pulse-ring-delayed {
+        animation: pulseWave 4s cubic-bezier(0.4, 0, 0.6, 1) infinite 2s;
+        transform-origin: 1020px 200px;
+      }
+      .scan-line {
+        animation: scanMove 6s linear infinite;
+      }
+      .crypto-node {
+        animation: nodePulse 3s ease-in-out infinite alternate;
+      }
+
+      @keyframes floatOrb1 {
+        0% { transform: translate(0px, 0px) scale(1); }
+        100% { transform: translate(50px, 30px) scale(1.15); }
+      }
+      @keyframes floatOrb2 {
+        0% { transform: translate(0px, 0px) scale(1); }
+        100% { transform: translate(-40px, -25px) scale(1.2); }
+      }
+      @keyframes pulseWave {
+        0% { transform: scale(0.85); opacity: 0.8; }
+        50% { opacity: 0.3; }
+        100% { transform: scale(1.5); opacity: 0; }
+      }
+      @keyframes scanMove {
+        0% { transform: translateY(-50px); opacity: 0; }
+        20% { opacity: 0.7; }
+        80% { opacity: 0.7; }
+        100% { transform: translateY(420px); opacity: 0; }
+      }
+      @keyframes nodePulse {
+        0% { r: 5px; opacity: 0.5; }
+        100% { r: 8px; opacity: 1; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="400" fill="url(#bgGrad)" />
+  <rect width="1200" height="400" fill="url(#grid)" />
+
+  <!-- Animated Ambient Orbs in Background -->
+  <g>
+    <circle class="orb-1" cx="200" cy="80" r="140" fill="#0284c7" opacity="0.18" filter="url(#glowCyan)" />
+    <circle class="orb-2" cx="1000" cy="300" r="160" fill="#7c3aed" opacity="0.18" filter="url(#glowPurple)" />
+    <circle cx="600" cy="200" r="110" fill="#0d9488" opacity="0.12" filter="url(#glowCyan)" />
+  </g>
+
+  <!-- Subtle Dynamic Tech Nodes & Provenance Chain Lines on the Right -->
+  <g opacity="0.6">
+    <!-- Connecting chain paths -->
+    <path d="M 860 120 L 940 180 L 1020 120 L 1100 180 L 1020 260 L 940 200 Z" fill="none" stroke="rgba(56, 189, 248, 0.25)" stroke-width="2" stroke-dasharray="4 4" />
+    <path d="M 940 180 L 1020 200 L 1100 180" fill="none" stroke="rgba(168, 85, 247, 0.3)" stroke-width="1.5" />
+    <path d="M 880 280 L 960 250 L 1050 310" fill="none" stroke="rgba(45, 212, 191, 0.25)" stroke-width="1.5" />
+
+    <!-- Pulse rings originating from verification seal -->
+    <circle class="pulse-ring" cx="1020" cy="200" r="60" fill="none" stroke="#38bdf8" stroke-width="1.5" />
+    <circle class="pulse-ring-delayed" cx="1020" cy="200" r="60" fill="none" stroke="#818cf8" stroke-width="1.5" />
+
+    <!-- Chain Nodes -->
+    <circle class="crypto-node" cx="860" cy="120" r="6" fill="#38bdf8" />
+    <circle class="crypto-node" cx="940" cy="180" r="5" fill="#818cf8" />
+    <circle class="crypto-node" cx="1020" cy="120" r="7" fill="#c084fc" />
+    <circle class="crypto-node" cx="1100" cy="180" r="5" fill="#38bdf8" />
+    <circle class="crypto-node" cx="1020" cy="260" r="6" fill="#2dd4bf" />
+    <circle class="crypto-node" cx="960" cy="250" r="5" fill="#818cf8" />
+  </g>
+
+  <!-- Dynamic Verification Seal Illustration (Shield + Check) -->
+  <g transform="translate(970, 150)">
+    <circle cx="50" cy="50" r="48" fill="#1e293b" stroke="url(#shieldGrad)" stroke-width="3" filter="url(#glowCyan)" opacity="0.9" />
+    <!-- Shield Icon & Cryptographic Checkmark -->
+    <path d="M 50 24 L 72 32 C 72 50 62 66 50 74 C 38 66 28 50 28 32 Z" fill="rgba(14, 165, 233, 0.15)" stroke="#38bdf8" stroke-width="2.5" stroke-linejoin="round" />
+    <path d="M 42 48 L 48 54 L 60 40" fill="none" stroke="#4ade80" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- Foreground Content: Clean, Readable Text Always on Top -->
+  <!-- Header / Category Badge -->
+  <g transform="translate(80, 75)">
+    <rect width="365" height="30" rx="15" fill="rgba(56, 189, 248, 0.12)" stroke="rgba(56, 189, 248, 0.35)" stroke-width="1" />
+    <circle cx="16" cy="15" r="4" fill="#38bdf8" />
+    <text x="28" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#38bdf8" letter-spacing="1.5">VERIFIED CONTENT CREDENTIALS &amp; C2PA</text>
+  </g>
+
+  <!-- Main Title -->
+  <g transform="translate(80, 145)">
+    <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" fill="url(#titleGrad)" letter-spacing="-0.5">
+      Content Credibility &amp; Provenance
+    </text>
+  </g>
+
+  <!-- Subtitle -->
+  <g transform="translate(80, 188)">
+    <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="17" font-weight="400" fill="#94a3b8">
+      Curated ecosystem of C2PA Content Credentials, deepfake detection, forensic AI &amp; open-source pipelines.
+    </text>
+  </g>
+
+  <!-- Pill Tags / Feature Highlights in Foreground -->
+  <g transform="translate(80, 245)">
+    <!-- Pill 1 -->
+    <rect x="0" y="0" width="165" height="36" rx="8" fill="url(#cardGrad)" stroke="rgba(56, 189, 248, 0.3)" stroke-width="1" />
+    <text x="16" y="23" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">🛡️ C2PA Manifests</text>
+
+    <!-- Pill 2 -->
+    <rect x="180" y="0" width="185" height="36" rx="8" fill="url(#cardGrad)" stroke="rgba(129, 140, 248, 0.3)" stroke-width="1" />
+    <text x="196" y="23" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">🔍 Deepfake Detection</text>
+
+    <!-- Pill 3 -->
+    <rect x="380" y="0" width="195" height="36" rx="8" fill="url(#cardGrad)" stroke="rgba(192, 132, 252, 0.3)" stroke-width="1" />
+    <text x="396" y="23" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">⚡ Dual-Anchor Signing</text>
+
+    <!-- Pill 4 -->
+    <rect x="590" y="0" width="190" height="36" rx="8" fill="url(#cardGrad)" stroke="rgba(45, 212, 191, 0.3)" stroke-width="1" />
+    <text x="606" y="23" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">🤖 Agentic MCP Servers</text>
+  </g>
+
+  <!-- Bottom Border Line Accent -->
+  <rect x="0" y="396" width="1200" height="4" fill="url(#titleGrad)" />
+</svg>
