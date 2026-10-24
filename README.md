@@ -42,6 +42,10 @@ Digital manipulation, generative AI, and hyper-realistic deepfakes have made ver
 1. **Affirmative Cryptographic Provenance (C2PA / Content Credentials):** Cryptographically binding identity, edit history, and device assertions directly into media metadata at capture or export using public key infrastructure (PKI) and tamper-evident hashes.
 2. **Post-Hoc Forensic & Deepfake Detection:** Applying computer vision and deep learning models to detect artifacts, synthetic generation inconsistencies, facial manipulation, and voice cloning in uncredentialed media.
 
+### 🔍 Core Focus Areas & Technical Keywords
+
+C2PA Standard • Content Credentials (CAI) • Deepfake Detection API • Cryptographic Provenance • Public Key Infrastructure (PKI) • Digital Watermarking (SynthID) • Facial Manipulation Forensics • Synthetic Audio / Voice Cloning Detection • RFC 3161 Trusted Timestamping • OpenTimestamps (Bitcoin Anchor) • Model Context Protocol (MCP) • EU AI Act Article 50 Compliance
+
 ---
 
 ## 📊 Sector Overview & Market Dynamics
