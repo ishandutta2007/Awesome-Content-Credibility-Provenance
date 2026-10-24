@@ -71,72 +71,72 @@ The sector is currently **moderately fragmented**: enterprise infrastructure is 
 
 ## 💻 Open-Source GitHub Projects
 
-*Sorted by GitHub Stars (descending)*
+*Sorted by GitHub_Stars (descending)*
 
-- **[Daisy-Zhang/Awesome-Deepfakes-Detection](https://github.com/Daisy-Zhang/Awesome-Deepfakes-Detection)** [![GitHub Stars](https://img.shields.io/github/stars/Daisy-Zhang/Awesome-Deepfakes-Detection?style=social&color=white)](https://github.com/Daisy-Zhang/Awesome-Deepfakes-Detection/stargazers) ⭐ (1,845+ stars)  
+- **[Daisy-Zhang/Awesome-Deepfakes-Detection](https://github.com/Daisy-Zhang/Awesome-Deepfakes-Detection)** [![GitHub_Stars](https://img.shields.io/github/stars/Daisy-Zhang/Awesome-Deepfakes-Detection?style=social&color=white)](https://github.com/Daisy-Zhang/Awesome-Deepfakes-Detection/stargazers) ⭐ (1,845+ stars)  
   **Curated Research & Deepfake Detection Benchmark Directory.** Comprehensive index covering academic papers, benchmark datasets, forensic toolkits, and machine learning models for facial manipulation detection, audio spoofing, and diffusion forensics.
 
-- **[SCLBD/DeepfakeBench](https://github.com/SCLBD/DeepfakeBench)** [![GitHub Stars](https://img.shields.io/github/stars/SCLBD/DeepfakeBench?style=social&color=white)](https://github.com/SCLBD/DeepfakeBench/stargazers) ⭐ (1,135+ stars)  
+- **[SCLBD/DeepfakeBench](https://github.com/SCLBD/DeepfakeBench)** [![GitHub_Stars](https://img.shields.io/github/stars/SCLBD/DeepfakeBench?style=social&color=white)](https://github.com/SCLBD/DeepfakeBench/stargazers) ⭐ (1,135+ stars)  
   **The Comprehensive Deepfake Detection Benchmark Toolkit.** A modular, standardized open-source benchmarking framework for deepfake detection algorithms, containing unified data processing, 15+ state-of-the-art detectors, and cross-dataset evaluation suites.
 
-- **[abhijithjadhav/Deepfake_detection_using_deep_learning](https://github.com/abhijithjadhav/Deepfake_detection_using_deep_learning)** [![GitHub Stars](https://img.shields.io/github/stars/abhijithjadhav/Deepfake_detection_using_deep_learning?style=social&color=white)](https://github.com/abhijithjadhav/Deepfake_detection_using_deep_learning/stargazers) ⭐ (890+ stars)  
+- **[abhijithjadhav/Deepfake_detection_using_deep_learning](https://github.com/abhijithjadhav/Deepfake_detection_using_deep_learning)** [![GitHub_Stars](https://img.shields.io/github/stars/abhijithjadhav/Deepfake_detection_using_deep_learning?style=social&color=white)](https://github.com/abhijithjadhav/Deepfake_detection_using_deep_learning/stargazers) ⭐ (890+ stars)  
   **End-to-End ResNeXt & LSTM Video Deepfake Classifier.** Deep learning pipeline utilizing transfer learning with pretrained ResNeXt CNN feature extraction and recurrent LSTM sequence layers to detect temporal manipulation across video frames.
 
-- **[dessa-oss/DeepFake-Detection](https://github.com/dessa-oss/DeepFake-Detection)** [![GitHub Stars](https://img.shields.io/github/stars/dessa-oss/DeepFake-Detection?style=social&color=white)](https://github.com/dessa-oss/DeepFake-Detection/stargazers) ⭐ (659+ stars)  
+- **[dessa-oss/DeepFake-Detection](https://github.com/dessa-oss/DeepFake-Detection)** [![GitHub_Stars](https://img.shields.io/github/stars/dessa-oss/DeepFake-Detection?style=social&color=white)](https://github.com/dessa-oss/DeepFake-Detection/stargazers) ⭐ (659+ stars)  
   **Production-Oriented Deepfake Detection Framework.** Open-source codebase focused on resilient deepfake identification, convolutional architectures, and feature analysis across diverse adversarial conditions.
 
-- **[flyingby/Awesome-Deepfake-Generation-and-Detection](https://github.com/flyingby/Awesome-Deepfake-Generation-and-Detection)** [![GitHub Stars](https://img.shields.io/github/stars/flyingby/Awesome-Deepfake-Generation-and-Detection?style=social&color=white)](https://github.com/flyingby/Awesome-Deepfake-Generation-and-Detection/stargazers) ⭐ (652+ stars)  
+- **[flyingby/Awesome-Deepfake-Generation-and-Detection](https://github.com/flyingby/Awesome-Deepfake-Generation-and-Detection)** [![GitHub_Stars](https://img.shields.io/github/stars/flyingby/Awesome-Deepfake-Generation-and-Detection?style=social&color=white)](https://github.com/flyingby/Awesome-Deepfake-Generation-and-Detection/stargazers) ⭐ (652+ stars)  
   **Survey Repository on Deepfake Generation and Forensic Detection.** Broad academic collection indexing cutting-edge generation methods (GANs, diffusion) alongside forensic countermeasure algorithms and evaluation datasets.
 
-- **[contentauth/c2pa-rs](https://github.com/contentauth/c2pa-rs)** [![GitHub Stars](https://img.shields.io/github/stars/contentauth/c2pa-rs?style=social&color=white)](https://github.com/contentauth/c2pa-rs/stargazers) ⭐ (437+ stars)  
+- **[contentauth/c2pa-rs](https://github.com/contentauth/c2pa-rs)** [![GitHub_Stars](https://img.shields.io/github/stars/contentauth/c2pa-rs?style=social&color=white)](https://github.com/contentauth/c2pa-rs/stargazers) ⭐ (437+ stars)  
   **Official C2PA Reference Rust Implementation.** The foundational reference library developed under the Coalition for Content Provenance and Authenticity (C2PA) and Content Authenticity Initiative (CAI). Implements full C2PA manifest reading, writing, cryptographic signing, certificate validation, and Merkle hash tree binding.
 
-- **[opentimestamps/opentimestamps-client](https://github.com/opentimestamps/opentimestamps-client)** [![GitHub Stars](https://img.shields.io/github/stars/opentimestamps/opentimestamps-client?style=social&color=white)](https://github.com/opentimestamps/opentimestamps-client/stargazers) ⭐ (429+ stars)  
+- **[opentimestamps/opentimestamps-client](https://github.com/opentimestamps/opentimestamps-client)** [![GitHub_Stars](https://img.shields.io/github/stars/opentimestamps/opentimestamps-client?style=social&color=white)](https://github.com/opentimestamps/opentimestamps-client/stargazers) ⭐ (429+ stars)  
   **Trustless Timestamping via the Bitcoin Blockchain.** Protocol and command-line utility for creating decentralized, cost-free, tamper-proof proof of existence anchored onto the Bitcoin ledger without third-party reliance.
 
-- **[HongguLiu/Deepfake-Detection](https://github.com/HongguLiu/Deepfake-Detection)** [![GitHub Stars](https://img.shields.io/github/stars/HongguLiu/Deepfake-Detection?style=social&color=white)](https://github.com/HongguLiu/Deepfake-Detection/stargazers) ⭐ (372+ stars)  
+- **[HongguLiu/Deepfake-Detection](https://github.com/HongguLiu/Deepfake-Detection)** [![GitHub_Stars](https://img.shields.io/github/stars/HongguLiu/Deepfake-Detection?style=social&color=white)](https://github.com/HongguLiu/Deepfake-Detection/stargazers) ⭐ (372+ stars)  
   **PyTorch Deepfake Detection on FaceForensics++.** PyTorch implementation benchmarked on FaceForensics++, detecting manipulated facial regions and compression artifacts.
 
-- **[chuangchuangtan/NPR-DeepfakeDetection](https://github.com/chuangchuangtan/NPR-DeepfakeDetection)** [![GitHub Stars](https://img.shields.io/github/stars/chuangchuangtan/NPR-DeepfakeDetection?style=social&color=white)](https://github.com/chuangchuangtan/NPR-DeepfakeDetection/stargazers) ⭐ (316+ stars)  
+- **[chuangchuangtan/NPR-DeepfakeDetection](https://github.com/chuangchuangtan/NPR-DeepfakeDetection)** [![GitHub_Stars](https://img.shields.io/github/stars/chuangchuangtan/NPR-DeepfakeDetection?style=social&color=white)](https://github.com/chuangchuangtan/NPR-DeepfakeDetection/stargazers) ⭐ (316+ stars)  
   **Neighboring Pixel Relationships (NPR) for AI-Synthesized Image Detection.** CVPR-published methodology analyzing subtle local pixel correlation inconsistencies introduced by generative models to detect synthetic images.
 
-- **[DariusAf/MesoNet](https://github.com/DariusAf/MesoNet)** [![GitHub Stars](https://img.shields.io/github/stars/DariusAf/MesoNet?style=social&color=white)](https://github.com/DariusAf/MesoNet/stargazers) ⭐ (305+ stars)  
+- **[DariusAf/MesoNet](https://github.com/DariusAf/MesoNet)** [![GitHub_Stars](https://img.shields.io/github/stars/DariusAf/MesoNet?style=social&color=white)](https://github.com/DariusAf/MesoNet/stargazers) ⭐ (305+ stars)  
   **Compact Facial Video Forgery Detection Network.** Landmark IEEE WIFS forensic architecture (Meso-4 and MesoInception-4) engineered specifically for efficient detection of face tampering in compressed video streams.
 
-- **[c2pa-org/specifications](https://github.com/c2pa-org/specifications)** [![GitHub Stars](https://img.shields.io/github/stars/c2pa-org/specifications?style=social&color=white)](https://github.com/c2pa-org/specifications/stargazers) ⭐ (212+ stars)  
+- **[c2pa-org/specifications](https://github.com/c2pa-org/specifications)** [![GitHub_Stars](https://img.shields.io/github/stars/c2pa-org/specifications?style=social&color=white)](https://github.com/c2pa-org/specifications/stargazers) ⭐ (212+ stars)  
   **Official C2PA Technical Specifications.** The open standard documentation and schema definitions detailing manifest structure, COSE cryptographic signing, JUMBF packaging, and assertion requirements.
 
-- **[contentauth/c2patool](https://github.com/contentauth/c2patool)** [![GitHub Stars](https://img.shields.io/github/stars/contentauth/c2patool?style=social&color=white)](https://github.com/contentauth/c2patool/stargazers) ⭐ (156+ stars)  
+- **[contentauth/c2patool](https://github.com/contentauth/c2patool)** [![GitHub_Stars](https://img.shields.io/github/stars/contentauth/c2patool?style=social&color=white)](https://github.com/contentauth/c2patool/stargazers) ⭐ (156+ stars)  
   **Command-Line Utility for C2PA Manifests.** CLI application to inspect, sign, inject, and verify C2PA Content Credentials in image, audio, and video files directly from terminal or CI/CD pipelines.
 
-- **[contentauth/c2pa-python](https://github.com/contentauth/c2pa-python)** [![GitHub Stars](https://img.shields.io/github/stars/contentauth/c2pa-python?style=social&color=white)](https://github.com/contentauth/c2pa-python/stargazers) ⭐ (109+ stars)  
+- **[contentauth/c2pa-python](https://github.com/contentauth/c2pa-python)** [![GitHub_Stars](https://img.shields.io/github/stars/contentauth/c2pa-python?style=social&color=white)](https://github.com/contentauth/c2pa-python/stargazers) ⭐ (109+ stars)  
   **Official Python Bindings for C2PA.** Provides idiomatic Python SDK access for reading, validating, and extracting Content Credential claims, ingredients, and signing certificates within data science and backend workflows.
 
-- **[contentauth/c2pa-js](https://github.com/contentauth/c2pa-js)** [![GitHub Stars](https://img.shields.io/github/stars/contentauth/c2pa-js?style=social&color=white)](https://github.com/contentauth/c2pa-js/stargazers) ⭐ (40+ stars)  
+- **[contentauth/c2pa-js](https://github.com/contentauth/c2pa-js)** [![GitHub_Stars](https://img.shields.io/github/stars/contentauth/c2pa-js?style=social&color=white)](https://github.com/contentauth/c2pa-js/stargazers) ⭐ (40+ stars)  
   **Official JavaScript/TypeScript Web SDK for C2PA.** Client-side and Node.js library for parsing, displaying, and cryptographically validating Content Credentials manifests directly inside web applications.
 
-- **[numbersprotocol/pyc2pa](https://github.com/numbersprotocol/pyc2pa)** [![GitHub Stars](https://img.shields.io/github/stars/numbersprotocol/pyc2pa?style=social&color=white)](https://github.com/numbersprotocol/pyc2pa/stargazers) ⭐ (44+ stars)  
+- **[numbersprotocol/pyc2pa](https://github.com/numbersprotocol/pyc2pa)** [![GitHub_Stars](https://img.shields.io/github/stars/numbersprotocol/pyc2pa?style=social&color=white)](https://github.com/numbersprotocol/pyc2pa/stargazers) ⭐ (44+ stars)  
   **Python Implementation of C2PA.** Pure-Python library supporting C2PA claim creation, signing, and verification designed for lightweight scripting and decentralized pipelines.
 
-- **[microsoft/c2pa-extension-validator](https://github.com/microsoft/c2pa-extension-validator)** [![GitHub Stars](https://img.shields.io/github/stars/microsoft/c2pa-extension-validator?style=social&color=white)](https://github.com/microsoft/c2pa-extension-validator/stargazers) ⭐ (18+ stars)  
+- **[microsoft/c2pa-extension-validator](https://github.com/microsoft/c2pa-extension-validator)** [![GitHub_Stars](https://img.shields.io/github/stars/microsoft/c2pa-extension-validator?style=social&color=white)](https://github.com/microsoft/c2pa-extension-validator/stargazers) ⭐ (18+ stars)  
   **Browser Extension to Validate C2PA Digital Assets.** Open-source browser extension developed by Microsoft to inspect and validate digital provenance assertions in web assets on the fly.
 
-- **[starlinglab/authenticated-attributes](https://github.com/starlinglab/authenticated-attributes)** [![GitHub Stars](https://img.shields.io/github/stars/starlinglab/authenticated-attributes?style=social&color=white)](https://github.com/starlinglab/authenticated-attributes/stargazers) ⭐ (10+ stars)  
+- **[starlinglab/authenticated-attributes](https://github.com/starlinglab/authenticated-attributes)** [![GitHub_Stars](https://img.shields.io/github/stars/starlinglab/authenticated-attributes?style=social&color=white)](https://github.com/starlinglab/authenticated-attributes/stargazers) ⭐ (10+ stars)  
   **Decentralized Provenance Research Framework.** Research framework and toolkit by the Starling Lab (Stanford/USC) deploying hardware-backed cryptographic signing, W3C Verifiable Credentials, and decentralized web anchors for newsroom integrity.
 
-- **[.RISE](https://github.com/demiralpdev/.RISE)** [![GitHub Stars](https://img.shields.io/github/stars/demiralpdev/.RISE?style=social&color=white)](https://github.com/demiralpdev/.RISE/stargazers) ⭐ (3+ stars)  
+- **[.RISE](https://github.com/demiralpdev/.RISE)** [![GitHub_Stars](https://img.shields.io/github/stars/demiralpdev/.RISE?style=social&color=white)](https://github.com/demiralpdev/.RISE/stargazers) ⭐ (3+ stars)  
   **Multi-Timestamp Open Authenticity Protocol.** Hashes camera frames at capture, signs with device key (ES256/Ed25519 + optional ML-DSA-65 post-quantum signing), applies RFC 3161 timestamps from multiple TSAs, and seals into JPEG via JUMBF.
 
-- **[HanMoonSub/DeepGuard](https://github.com/HanMoonSub/DeepGuard)** [![GitHub Stars](https://img.shields.io/github/stars/HanMoonSub/DeepGuard?style=social&color=white)](https://github.com/HanMoonSub/DeepGuard/stargazers) ⭐ (2+ stars)  
+- **[HanMoonSub/DeepGuard](https://github.com/HanMoonSub/DeepGuard)** [![GitHub_Stars](https://img.shields.io/github/stars/HanMoonSub/DeepGuard?style=social&color=white)](https://github.com/HanMoonSub/DeepGuard/stargazers) ⭐ (2+ stars)  
   **Explainable Deepfake Detection Package.** Uses hybrid CNN-ViT architectures (MS-EffViT, MS-EffGCViT) with an XAI toolkit visualizing where and why facial manipulation is flagged.
 
-- **[richardwooding/c2pa](https://github.com/richardwooding/c2pa)** [![GitHub Stars](https://img.shields.io/github/stars/richardwooding/c2pa?style=social&color=white)](https://github.com/richardwooding/c2pa/stargazers) ⭐ (1+ stars)  
+- **[richardwooding/c2pa](https://github.com/richardwooding/c2pa)** [![GitHub_Stars](https://img.shields.io/github/stars/richardwooding/c2pa?style=social&color=white)](https://github.com/richardwooding/c2pa/stargazers) ⭐ (1+ stars)  
   **Pure-Go C2PA Reader & Cryptographic Validator.** High-performance native Go implementation providing COSE signature checking, certificate chain parsing, BMFF Merkle validation, RFC 3161 timestamp checks, and recursive provenance ingredient verification.
 
-- **[Vektor-Memory/Provenance](https://github.com/Vektor-Memory/Provenance)** [![GitHub Stars](https://img.shields.io/github/stars/Vektor-Memory/Provenance?style=social&color=white)](https://github.com/Vektor-Memory/Provenance/stargazers) ⭐ (1+ stars)  
+- **[Vektor-Memory/Provenance](https://github.com/Vektor-Memory/Provenance)** [![GitHub_Stars](https://img.shields.io/github/stars/Vektor-Memory/Provenance?style=social&color=white)](https://github.com/Vektor-Memory/Provenance/stargazers) ⭐ (1+ stars)  
   **Dual-Anchor Cryptographic Signing Registry.** Cross-format signing registry supporting 27+ file extensions. Anchors existence proofs to both RFC 3161 authorities and Bitcoin via OpenTimestamps.
 
-- **[JohannsenLum/is-it-ai-mcp](https://github.com/JohannsenLum/is-it-ai-mcp)** [![GitHub Stars](https://img.shields.io/github/stars/JohannsenLum/is-it-ai-mcp?style=social&color=white)](https://github.com/JohannsenLum/is-it-ai-mcp/stargazers) ⭐ (0+ stars)  
+- **[JohannsenLum/is-it-ai-mcp](https://github.com/JohannsenLum/is-it-ai-mcp)** [![GitHub_Stars](https://img.shields.io/github/stars/JohannsenLum/is-it-ai-mcp?style=social&color=white)](https://github.com/JohannsenLum/is-it-ai-mcp/stargazers) ⭐ (0+ stars)  
   **Model Context Protocol (MCP) Server for AI Agent Provenance.** Enables LLMs and AI agent workflows to autonomously verify embedded C2PA manifests, return origin assertions, and validate image integrity locally.
 
 ---
